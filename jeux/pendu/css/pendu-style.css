@@ -1,0 +1,177 @@
+body {
+    padding-bottom: 150px;
+}
+
+.game
+{
+    background: rgba(255, 255, 255, 0.83);
+    border-radius:12px;
+    text-align:center;
+}
+h2,
+h3 {
+    text-transform: uppercase;
+}
+.text-danger{
+    color: #CF000F;
+}
+#box {
+    padding-top: 40px;
+}
+.pendu-box {
+    position: relative;
+    width: 360px;
+    height: 500px;
+    background-color: #0A5197;
+    padding: 10px;
+    border-radius:12px;
+}
+.box-img {
+    background-color: #ecf0f1;
+    height: 480px;
+    margin: auto;
+    padding-top: 35px;
+    border-radius:12px;
+}
+#wrong-char {
+    display: none;
+}
+#chance-text {
+    font-size: 1.5em;
+}
+.box-img img {
+    width: 153px;
+    height: 163px;
+    margin-left: -35px;
+}
+.find {
+    text-align: center;
+    margin: 40px 0;
+    padding: 0;
+}
+.find li {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    line-height: 46px;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-size: 130%;
+    color: #34495e;
+    border: 1px solid rgba(12, 2, 27, 0.67);
+    border-radius:12px;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+}
+#alphabet
+{
+    margin:auto;
+    width:400px;
+    max-width:90%;
+    text-align: center;
+}
+#alphabet .btn {
+    margin-bottom:2px;
+    width:45px;
+    height:45px;
+    text-transform: uppercase;
+}
+.images {
+    background-color: white;
+    width: 90%;
+    height: 365px;
+    overflow: hidden;
+}
+[data-slide="image"] {
+    list-style-type: none;
+}
+.masthead {
+    background-color: #428bca;
+    -webkit-box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
+}
+/* Nav links */
+
+.nav-item {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+    color: #cdddeb;
+}
+.nav-item:hover,
+.nav-item:focus {
+    color: #fff;
+    text-decoration: none;
+}
+/* Active state gets a caret at the bottom */
+
+.nav .active {
+    color: #fff;
+}
+.nav .active:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    vertical-align: middle;
+    content: " ";
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid;
+    border-left: 5px solid transparent;
+}
+#find-word {
+    color: #428bca;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+@media (max-width: 1200px) {
+    .col-xs-offset-4 {
+        margin-left: 29.333%;
+    }
+}
+@media (max-width: 992px) {
+    .col-xs-offset-4 {
+        margin-left: 23.333%;
+    }
+}
+@media (max-width: 767px) {
+    body {
+        padding-top: 10px;
+    }
+    .pendu-box {
+        width: 320px;
+        height: 260px;
+    }
+    .box-img {
+        height: 240px;
+        padding-top: 30px;
+    }
+    .find {
+        margin: 25px 0;
+    }
+    .find li {
+        width: 25px;
+        height: 30px;
+        line-height: 27px;
+        font-size: 2em;
+    }
+    #alphabet .btn {
+        width: 40px;
+        height: 40px;
+        line-height: 15px;
+        font-size: 1.5em;
+        padding: 6px 9px;
+    }
+    .col-xs-offset-4 {
+        margin-left: 7.333%;
+    }
+}
+div.octi-game
+{
+    width:100%;
+    margin-top:30px;
+}

@@ -1,0 +1,18 @@
+
+.container
+{
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto;
+}
+body
+{
+ padding-top:15px;
+}
+
+.well
+{
+	background-color:#ccc;
+	padding:20px;
+}

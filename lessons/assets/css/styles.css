@@ -1,0 +1,176 @@
+div#promo.jumbotron{
+}
+
+div#promo{
+  max-width:100%;
+  margin-top:0px;
+  min-height:600px;
+  text-align:center;
+  padding:40px 10px;
+}
+
+div.jumbotron{
+  border-radius:12px;
+  background:rgba(255,255,255,.75);
+  padding:20px;
+  max-width:800px;
+  margin:auto;
+  margin-top:100px;
+}
+
+div#welcome{
+  text-align:center;
+  padding:40px;
+  max-width:800px;
+  margin:auto;
+  font-family:arial, sans-serif;
+}
+
+div#lessons{
+  text-align:center;
+  padding:15px;
+}
+
+#lessons i{
+  font-size:100px;
+  color:#4870d7;
+}
+
+#welcome p{
+  margin:40px 2px;
+}
+
+#le{
+}
+
+#lessons .item{
+  margin-top:50px;
+}
+
+.item hicon.glyphicon-hourglass{
+  font-size:436px;
+}
+
+div.container{
+  margin-top:70px;
+}
+
+div#formulaire{
+  max-width:98%;
+  margin:auto;
+}
+
+div.col-md-6.niveau{
+  background:rgba(255, 255,255,.5);
+  padding:12px;
+  border-radius:12px;
+  border:2px solid rgba(0,0,0,0.3);
+}
+
+.niveau:hover{
+  background:rgba(255,255,255,0.91);
+  cursor:pointer;
+}
+
+.niveau{
+  background:#ffffff;
+  padding:14px;
+  border-radius:12px;
+  border:1px solid rgba(0,0,0,0.31);
+}
+
+div#background{
+  background:rgba(44,62,80,0.11);
+  width:100%;
+  height:100%;
+  position:fixed;
+}
+
+p{
+  font-weight:bold;
+}
+
+h2.niveau-title{
+  font-weight:bold;
+}
+
+.niveau img{
+}
+
+h1.niveau-title{
+  font-weight:bold;
+  color:rgb(231,62,72);
+  padding:5px;
+  border-radius:12px;
+}
+
+div#progression{
+  height:5px;
+  width:0%;
+  background:-moz-linear-gradient(29deg, rgba(0,0,255,1) 0%, rgba(0,0,255,1) 19%, rgba(255,252,253,1) 53%, rgba(255,0,0,1) 80%, rgba(255,0,0,1) 100%);
+  /* ff3.6+ */background:-webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0,0,255,1)), color-stop(19%, rgba(0,0,255,1)), color-stop(53%, rgba(255,252,253,1)), color-stop(80%, rgba(255,0,0,1)), color-stop(100%, rgba(255,0,0,1)));
+  /* safari4+,chrome */background:-webkit-linear-gradient(29deg, rgba(0,0,255,1) 0%, rgba(0,0,255,1) 19%, rgba(255,252,253,1) 53%, rgba(255,0,0,1) 80%, rgba(255,0,0,1) 100%);
+  /* safari5.1+,chrome10+ */background:-o-linear-gradient(29deg, rgba(0,0,255,1) 0%, rgba(0,0,255,1) 19%, rgba(255,252,253,1) 53%, rgba(255,0,0,1) 80%, rgba(255,0,0,1) 100%);
+  /* opera 11.10+ */background:-ms-linear-gradient(29deg, rgba(0,0,255,1) 0%, rgba(0,0,255,1) 19%, rgba(255,252,253,1) 53%, rgba(255,0,0,1) 80%, rgba(255,0,0,1) 100%);
+  /* ie10+ */background:linear-gradient(61deg, rgba(0,0,255,1) 0%, rgba(0,0,255,1) 19%, rgba(255,252,253,1) 53%, rgba(255,0,0,1) 80%, rgba(255,0,0,1) 100%);
+  /* w3c */filter:progid:DXImageTra;
+}
+
+div#progression-bar{
+  margin-top:60px;
+  height:10px;
+  padding:0;
+  margin-bottom:0;
+}
+
+div#lessons-container{
+  min-height: 500px;
+  background: white;
+  width: 90%;
+  margin: auto;
+  border-radius: 12px;
+  padding: 40px;
+  margin-top: 25px;
+}
+
+body{
+  background-image:url(../../assets/img/bastille_resized.png);
+}
+
+p.text-left.lesson{
+  text-align:justify;
+  margin-top:30px;
+  font-size:large;
+}
+
+div.choix span{
+  font-weight:bold;
+  font-size:large;
+}
+
+div.choix{
+  padding:10px 50px;
+  text-align:left;
+}
+
+a.breadcrump-title{
+  display:inline-block;
+  width:93%;
+}
+
+span.label.label-success.breadcrumb-label{
+  display:inline-block;
+  width:45px;
+}
+
+@media all and (max-width: 400px)
+{
+    div#lessons-container {
+      min-height: 500px;
+      background: white;
+      margin: auto;
+      border-radius: 12px;
+      width:100%;
+      padding:10px;
+    }
+}

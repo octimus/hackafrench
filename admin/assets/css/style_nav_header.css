@@ -1,0 +1,15 @@
+/* essayons d'abord de regler le menu */
+.dropdown-menu{
+    text-align: center;
+    background-color: #e7e7e7;
+}
+.dropdown-menu li a:hover,.dropdown-menu li:hover{
+    background-color: darkslategray;
+    font-family: 'LCALLIG';
+    color: white;
+}
+#nav a{
+    font-family: 'LCALLIG';
+    font-weight: bold;
+    color: orangered;
+}

@@ -1,0 +1,157 @@
+@media (min-width: 992px) {
+    html body .wrapper {
+        overflow: hidden;
+    }
+    .typo-line {
+        padding-left: 140px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+    .typo-line .category {
+        transform: translateY(-50%);
+        top: 50%;
+        left: 0px;
+        position: absolute;
+    }
+}
+#modal-cours .modal-dialog
+{
+    width:90%;
+}
+.all-icons [class*="pe-"] {
+    font-size: 40px;
+}
+
+.all-icons input {
+    border: 0;
+}
+
+.loader-container {
+    max-width: 150px;
+}
+
+.all-icons .font-icon-detail {
+    text-align: center;
+    padding: 45px 0px 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+.all-icons .font-icon-detail input {
+    margin: 25px auto 0;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: #aaa;
+    font-size: 13px;
+}
+
+#map {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 60px);
+}
+
+.places-buttons .btn {
+    margin-bottom: 30px
+}
+
+.sidebar .nav>li.active-pro {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+
+.sidebar .nav>li.active-pro a {
+    background: rgba(255, 255, 255, 0.14);
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+.table-upgrade td:nth-child(2),
+.table-upgrade td:nth-child(3) {
+    text-align: center;
+}
+
+body div .animation {
+    z-index: 266;
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    display: none;
+    width: 150px;
+}
+
+body .animation img {
+    width: 100px;
+}
+
+.animation .contenu img {
+    width: 30px;
+}
+
+.animation .contenu {
+    width: 15px;
+    margin-left: -65px;
+}
+
+#reclamation_container {
+    z-index: 100024;
+}
+
+.renverse {
+    transform: scaleX(-1);
+}
+
+.loader-container {
+    width: 100%;
+    text-align: center;
+}
+
+img[alt="chargement..."] {
+    position: relative;
+    width: 45%;
+    margin: auto;
+}
+
+.left-block {
+    margin-left: 50%;
+}
+
+.fixed {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+}
+
+button .update_loader img {
+    width: 25px !important;
+    margin: auto;
+}
+
+.remplir {
+    background: inherit!important;
+    font-weight: bolder;
+    border-width: 0;
+    width: 100%;
+}
+
+table td img {
+    height: 50px!important;
+}
+
+@media print {
+    #modal-facture {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+    }
+    #modal-facture .panel {
+        border-width: 0!important;
+        box-shadow: none;
+        overflow: hidden;
+    }
+}

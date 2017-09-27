@@ -1,0 +1,40 @@
+.form-control{
+    margin: 1%;
+}
+^[type="submit"]{
+    margin: 1%;
+}
+
+
+/* formulaire caché */
+/* il me faut media query ici */
+@media screen and (min-width: 750px){
+    #connect,#inscrit{
+        border: 2px solid dodgerblue;
+        border-radius: 6px;
+        position: absolute;
+        z-index: 10;
+    }
+    #inscrit{
+        transform: rotate(90deg);
+        left: -237;
+        top: 20%;
+    }
+    #connect{
+        transform: rotate(-90deg);
+        right: -156;
+        top: 20%;
+    }
+}
+#inscrit{
+    z-index: 10;
+}
+#connect h3,#inscrit h3{
+    margin: 0;
+    padding: 1%;
+    background-color: dodgerblue;
+    text-align: center;
+    width: 99%;
+    margin-bottom: 5%;
+    cursor: pointer;
+}

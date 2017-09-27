@@ -1,0 +1,57 @@
+#footer{
+    background-color: black;
+    padding: 1.2%;
+    padding-bottom: 0;
+}
+
+/* stylesheet du div du formulaire ansi que le formulaire */
+#form_div{
+    text-align: center;
+    margin-top: 2%;
+}
+#footer form input{
+    padding: 0.6%;
+    padding-left: 2%;
+    width: 70%;
+    border-radius: 9px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(12,122,122,0.5);
+}
+
+
+/* stylesheet hr */
+#footer hr{
+    margin: 0.5%;
+    border-width: 1;
+    border-color: darkslategray;
+}
+
+
+/* Stylesheet du div des photos des iles */
+#ile_ocean{
+    padding: 1%;
+    margin-top: 7%;
+    background-color: rgba(0,122,99,0.17);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+#ile_ocean h5{
+    margin-top: 0;
+}
+#ile_ocean #iles{
+    text-align: center;
+}
+#iles img{
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: 2s ile infinite;
+}
+
+
+/* le div du lien developpeurs */
+#lien_dev{
+    text-align: center;
+}

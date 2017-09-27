@@ -1,0 +1,36 @@
+body{
+    background-image: url("../img/body_bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#index_page.col-md-8{
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+#actu textarea{
+    width: 100%;
+}
+#actu .form-control{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#index_page{
+    background-color: rgba(0,33,33,0.4);
+    color: azure;
+}
+
+.img-responsive{
+    border-radius: 18px;
+}
+
+
+/* pub */
+#pub_rec_rep a{
+    color: azure;
+    display: block;
+}
